@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3D76654B-B3E9-A328-F946-A534780574C1" name="Karyawan">
+<createdBy>Acer</createdBy>
+<createdTime>2026-02-28 21:10:52 UTC</createdTime>
+<generatorID>976391C3-63BB-60BF-10BF-3A5203D8CEE0</generatorID>
+<ownerDesignName>posttest1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Karyawan" id="45C651CC-C711-2562-E939-AE8C17EC2530">
+<createdBy>Acer</createdBy>
+<createdTime>2026-02-28 21:10:52 UTC</createdTime>
+<generatorID>4CAD12AC-C694-5FF3-02A8-5DBDC000CBA6</generatorID>
+<ownerDesignName>posttest1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_Karyawan" id="1B9C57E4-E38B-D74A-77D5-407F1693C205">
+<createdBy>Acer</createdBy>
+<createdTime>2026-02-28 21:10:52 UTC</createdTime>
+<generatorID>28FA046B-3705-FA68-DA5B-7BDA1BC4BA7A</generatorID>
+<ownerDesignName>posttest1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Posisi" id="E6A8EEC5-EDF6-D0E5-86C7-3188BDC0B763">
+<createdBy>Acer</createdBy>
+<createdTime>2026-02-28 21:10:52 UTC</createdTime>
+<generatorID>4CF9B705-A251-6570-6D19-AD691A47348D</generatorID>
+<ownerDesignName>posttest1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Studio_ID_Studio" id="E663FE4E-A86D-47F5-52FF-921B3DEF0FE8">
+<createdBy>Acer</createdBy>
+<createdTime>2026-02-28 21:10:52 UTC</createdTime>
+<generatorID>62844CE8-D2DB-FC2F-FBAE-3F29B1EB53E5</generatorID>
+<ownerDesignName>posttest1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="54B223AB-A155-B4BF-4A95-31176369C492" referredColumn="4747F34E-1D53-912B-9020-1A352388BB5C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="431FCB43-D4A7-2BD7-1B47-0AE08752C6ED" name="Karyawan_PK">
+<createdBy>Acer</createdBy>
+<createdTime>2026-02-28 21:10:52 UTC</createdTime>
+<generatorID>DD7B4DC8-419C-4721-FA29-D92C4795FBBF</generatorID>
+<ownerDesignName>posttest1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45C651CC-C711-2562-E939-AE8C17EC2530"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95728C79-DE80-4DEC-E8CE-4FCE3F601A2D" name="Karyawan_Studio_FK">
+<createdBy>Acer</createdBy>
+<createdTime>2026-02-28 21:10:52 UTC</createdTime>
+<generatorID>91C9A142-2C0B-6E8A-3E0E-3491ED7C78E2</generatorID>
+<ownerDesignName>posttest1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E663FE4E-A86D-47F5-52FF-921B3DEF0FE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

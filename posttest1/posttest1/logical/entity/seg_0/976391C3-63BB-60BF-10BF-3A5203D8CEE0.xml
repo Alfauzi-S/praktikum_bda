@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="976391C3-63BB-60BF-10BF-3A5203D8CEE0" name="Karyawan">
+<createdBy>Acer</createdBy>
+<createdTime>2026-02-28 19:52:45 UTC</createdTime>
+<ownerDesignName>posttest1</ownerDesignName>
+<engineerTo>
+<item key="EB390D04-DF66-3D74-C29B-15642EF2E370" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Karyawan" id="4CAD12AC-C694-5FF3-02A8-5DBDC000CBA6">
+<createdBy>Acer</createdBy>
+<createdTime>2026-02-28 19:52:52 UTC</createdTime>
+<ownerDesignName>posttest1</ownerDesignName>
+<engineerTo>
+<item key="EB390D04-DF66-3D74-C29B-15642EF2E370" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nama_Karyawan" id="28FA046B-3705-FA68-DA5B-7BDA1BC4BA7A">
+<createdBy>Acer</createdBy>
+<createdTime>2026-02-28 19:53:23 UTC</createdTime>
+<ownerDesignName>posttest1</ownerDesignName>
+<engineerTo>
+<item key="EB390D04-DF66-3D74-C29B-15642EF2E370" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Posisi" id="4CF9B705-A251-6570-6D19-AD691A47348D">
+<createdBy>Acer</createdBy>
+<createdTime>2026-02-28 19:53:45 UTC</createdTime>
+<ownerDesignName>posttest1</ownerDesignName>
+<engineerTo>
+<item key="EB390D04-DF66-3D74-C29B-15642EF2E370" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Studio" id="62844CE8-D2DB-FC2F-FBAE-3F29B1EB53E5">
+<createdBy>Acer</createdBy>
+<createdTime>2026-02-28 19:59:53 UTC</createdTime>
+<generatorID>91C9A142-2C0B-6E8A-3E0E-3491ED7C78E2</generatorID>
+<ownerDesignName>posttest1</ownerDesignName>
+<engineerTo>
+<item key="EB390D04-DF66-3D74-C29B-15642EF2E370" value="true"/>
+</engineerTo>
+<referedAttribute>1087F696-6247-0087-9650-6CB4FB8236EC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DD7B4DC8-419C-4721-FA29-D92C4795FBBF" name="Karyawan PK">
+<createdBy>Acer</createdBy>
+<createdTime>2026-02-28 19:53:22 UTC</createdTime>
+<ownerDesignName>posttest1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="EB390D04-DF66-3D74-C29B-15642EF2E370" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4CAD12AC-C694-5FF3-02A8-5DBDC000CBA6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

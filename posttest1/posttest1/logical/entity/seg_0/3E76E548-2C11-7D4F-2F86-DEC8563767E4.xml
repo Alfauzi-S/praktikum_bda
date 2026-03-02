@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3E76E548-2C11-7D4F-2F86-DEC8563767E4" name="Pemesanan">
+<createdBy>Acer</createdBy>
+<createdTime>2026-02-28 19:44:22 UTC</createdTime>
+<ownerDesignName>posttest1</ownerDesignName>
+<engineerTo>
+<item key="EB390D04-DF66-3D74-C29B-15642EF2E370" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Pemesanan" id="4171B6B1-8FBA-1372-37B8-6C617727C97F">
+<createdBy>Acer</createdBy>
+<createdTime>2026-02-28 19:44:33 UTC</createdTime>
+<ownerDesignName>posttest1</ownerDesignName>
+<engineerTo>
+<item key="EB390D04-DF66-3D74-C29B-15642EF2E370" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Jumlah_Tiket" id="C691A4A5-D6F2-352E-F7E6-932024EB4840">
+<createdBy>Acer</createdBy>
+<createdTime>2026-02-28 19:45:00 UTC</createdTime>
+<ownerDesignName>posttest1</ownerDesignName>
+<engineerTo>
+<item key="EB390D04-DF66-3D74-C29B-15642EF2E370" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Total_Bayar" id="15D22D6D-01BB-D631-D0EC-D45B202CF38E">
+<createdBy>Acer</createdBy>
+<createdTime>2026-02-28 19:45:35 UTC</createdTime>
+<ownerDesignName>posttest1</ownerDesignName>
+<engineerTo>
+<item key="EB390D04-DF66-3D74-C29B-15642EF2E370" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Jadwal" id="494A0DBD-6F86-4DDB-578E-AFCE670E82DD">
+<createdBy>Acer</createdBy>
+<createdTime>2026-02-28 19:54:34 UTC</createdTime>
+<generatorID>FD56EF7A-67E5-67E0-1F4E-C88B989832B6</generatorID>
+<ownerDesignName>posttest1</ownerDesignName>
+<engineerTo>
+<item key="EB390D04-DF66-3D74-C29B-15642EF2E370" value="true"/>
+</engineerTo>
+<referedAttribute>A82759A0-46D0-F789-ED7A-AFB5DED60566</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Pengguna" id="CF267AF1-5E25-8538-B60F-60518AAF556B">
+<createdBy>Acer</createdBy>
+<createdTime>2026-02-28 19:54:42 UTC</createdTime>
+<generatorID>5933AB26-6238-1D92-13B0-A05F22E4A15D</generatorID>
+<ownerDesignName>posttest1</ownerDesignName>
+<engineerTo>
+<item key="EB390D04-DF66-3D74-C29B-15642EF2E370" value="true"/>
+</engineerTo>
+<referedAttribute>25EFECCE-88CD-9A58-19FD-4CDAF55D52D9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BED9180C-C939-1EE6-F8F1-F6E49594E47E" name="Pemesana PK">
+<createdBy>Acer</createdBy>
+<createdTime>2026-02-28 19:44:50 UTC</createdTime>
+<ownerDesignName>posttest1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="EB390D04-DF66-3D74-C29B-15642EF2E370" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4171B6B1-8FBA-1372-37B8-6C617727C97F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

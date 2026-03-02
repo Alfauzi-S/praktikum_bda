@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="posttest1" id="F0682F81-BF2F-873D-A19A-68C83622DA21" version="3.5">
+<createdBy>Acer</createdBy>
+<createdTime>2026-02-28 19:42:14 UTC</createdTime>
+<ownerDesignName>posttest1</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F0682F81-BF2F-873D-A19A-68C83622DA21</designId>
+</OSDM_Design>

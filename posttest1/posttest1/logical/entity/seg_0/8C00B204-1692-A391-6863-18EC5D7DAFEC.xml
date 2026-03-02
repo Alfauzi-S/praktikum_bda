@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8C00B204-1692-A391-6863-18EC5D7DAFEC" name="Jadwal_Tayang">
+<createdBy>Acer</createdBy>
+<createdTime>2026-02-28 19:47:46 UTC</createdTime>
+<ownerDesignName>posttest1</ownerDesignName>
+<engineerTo>
+<item key="EB390D04-DF66-3D74-C29B-15642EF2E370" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Jadwal" id="A82759A0-46D0-F789-ED7A-AFB5DED60566">
+<createdBy>Acer</createdBy>
+<createdTime>2026-02-28 19:48:11 UTC</createdTime>
+<ownerDesignName>posttest1</ownerDesignName>
+<engineerTo>
+<item key="EB390D04-DF66-3D74-C29B-15642EF2E370" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tanggal_Tayang" id="8C81F764-676F-2D44-936E-4CB08C124482">
+<createdBy>Acer</createdBy>
+<createdTime>2026-02-28 19:48:27 UTC</createdTime>
+<ownerDesignName>posttest1</ownerDesignName>
+<engineerTo>
+<item key="EB390D04-DF66-3D74-C29B-15642EF2E370" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Jam_Mulai" id="C57519DD-4E9E-1301-34B0-5C2346A78EC4">
+<createdBy>Acer</createdBy>
+<createdTime>2026-02-28 19:48:45 UTC</createdTime>
+<ownerDesignName>posttest1</ownerDesignName>
+<engineerTo>
+<item key="EB390D04-DF66-3D74-C29B-15642EF2E370" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_FIlm" id="B0321DFE-878B-C6F7-5231-7DF839A20BDA">
+<createdBy>Acer</createdBy>
+<createdTime>2026-02-28 19:55:34 UTC</createdTime>
+<generatorID>B5DE4ABD-E18C-FB18-146D-D669B20ECFE8</generatorID>
+<ownerDesignName>posttest1</ownerDesignName>
+<engineerTo>
+<item key="EB390D04-DF66-3D74-C29B-15642EF2E370" value="true"/>
+</engineerTo>
+<referedAttribute>C04EE43F-C69A-ACAA-3D02-E144105AB9C3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Studio" id="47D7232D-157D-56FD-DA03-1E893229EF92">
+<createdBy>Acer</createdBy>
+<createdTime>2026-02-28 19:55:41 UTC</createdTime>
+<generatorID>02DB3A18-F7F9-4240-BA2F-D60DB46D3421</generatorID>
+<ownerDesignName>posttest1</ownerDesignName>
+<engineerTo>
+<item key="EB390D04-DF66-3D74-C29B-15642EF2E370" value="true"/>
+</engineerTo>
+<referedAttribute>1087F696-6247-0087-9650-6CB4FB8236EC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A8BB4135-4135-BF15-301A-C1A976761351" name="Jadwal_Tayang PK">
+<createdBy>Acer</createdBy>
+<createdTime>2026-02-28 19:48:24 UTC</createdTime>
+<ownerDesignName>posttest1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="EB390D04-DF66-3D74-C29B-15642EF2E370" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A82759A0-46D0-F789-ED7A-AFB5DED60566</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

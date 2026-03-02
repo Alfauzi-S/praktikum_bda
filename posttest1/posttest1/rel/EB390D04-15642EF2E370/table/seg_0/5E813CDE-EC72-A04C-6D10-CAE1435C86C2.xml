@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E813CDE-EC72-A04C-6D10-CAE1435C86C2" name="Pemesanan">
+<createdBy>Acer</createdBy>
+<createdTime>2026-02-28 21:10:52 UTC</createdTime>
+<generatorID>3E76E548-2C11-7D4F-2F86-DEC8563767E4</generatorID>
+<ownerDesignName>posttest1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Pemesanan" id="C867112E-13C3-6102-B29A-D25C9443148E">
+<createdBy>Acer</createdBy>
+<createdTime>2026-02-28 21:10:52 UTC</createdTime>
+<generatorID>4171B6B1-8FBA-1372-37B8-6C617727C97F</generatorID>
+<ownerDesignName>posttest1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jumlah_Tiket" id="D128BF3A-97E4-9B30-E5E5-5115F55EAE1E">
+<createdBy>Acer</createdBy>
+<createdTime>2026-02-28 21:10:52 UTC</createdTime>
+<generatorID>C691A4A5-D6F2-352E-F7E6-932024EB4840</generatorID>
+<ownerDesignName>posttest1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Total_Bayar" id="B2B7332D-6844-999C-121F-5F1E8242E3FD">
+<createdBy>Acer</createdBy>
+<createdTime>2026-02-28 21:10:52 UTC</createdTime>
+<generatorID>15D22D6D-01BB-D631-D0EC-D45B202CF38E</generatorID>
+<ownerDesignName>posttest1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jadwal_Tayang_ID_Jadwal" id="279A193F-8152-C418-EF16-B90E6C4F444F">
+<createdBy>Acer</createdBy>
+<createdTime>2026-02-28 21:10:52 UTC</createdTime>
+<generatorID>494A0DBD-6F86-4DDB-578E-AFCE670E82DD</generatorID>
+<ownerDesignName>posttest1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F2EBE01-A1DE-FBD7-7F35-9559EB04E6E5" referredColumn="09EB0B24-1729-51BD-E0D0-7E79C19BB012"/>
+</associations>
+</Column>
+<Column name="Pengguna_ID_Pengguna" id="0AFC39FF-291D-63D0-46A3-B573CDD555E7">
+<createdBy>Acer</createdBy>
+<createdTime>2026-02-28 21:10:52 UTC</createdTime>
+<generatorID>CF267AF1-5E25-8538-B60F-60518AAF556B</generatorID>
+<ownerDesignName>posttest1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BA4F882D-4F2C-AC39-1DF7-C0A3524C6986" referredColumn="600BBCA5-93E7-7D10-1D5E-4E5492BFAC2A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="161056A4-B2AD-A836-C2B4-54C393B54B94" name="Pemesanan_PK">
+<createdBy>Acer</createdBy>
+<createdTime>2026-02-28 21:10:52 UTC</createdTime>
+<generatorID>BED9180C-C939-1EE6-F8F1-F6E49594E47E</generatorID>
+<ownerDesignName>posttest1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C867112E-13C3-6102-B29A-D25C9443148E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8905224D-5B24-7788-6C82-C50165CFE35F" name="Pemesanan_Jadwal_Tayang_FK">
+<createdBy>Acer</createdBy>
+<createdTime>2026-02-28 21:10:52 UTC</createdTime>
+<generatorID>FD56EF7A-67E5-67E0-1F4E-C88B989832B6</generatorID>
+<ownerDesignName>posttest1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="279A193F-8152-C418-EF16-B90E6C4F444F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8D75771-8818-008C-B2F5-5F05F96F1B03" name="Pemesanan_Pengguna_FK">
+<createdBy>Acer</createdBy>
+<createdTime>2026-02-28 21:10:52 UTC</createdTime>
+<generatorID>5933AB26-6238-1D92-13B0-A05F22E4A15D</generatorID>
+<ownerDesignName>posttest1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AFC39FF-291D-63D0-46A3-B573CDD555E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
