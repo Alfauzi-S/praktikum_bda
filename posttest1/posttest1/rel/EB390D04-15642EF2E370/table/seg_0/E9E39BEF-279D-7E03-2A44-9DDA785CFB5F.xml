@@ -1,17 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A6FF06D7-B106-2786-03EF-FBDAF51EAC47" name="Jadwal_Tayang">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E9E39BEF-279D-7E03-2A44-9DDA785CFB5F" name="Pemesanan">
 <createdBy>Acer</createdBy>
-<createdTime>2026-02-28 21:10:52 UTC</createdTime>
-<generatorID>8C00B204-1692-A391-6863-18EC5D7DAFEC</generatorID>
+<createdTime>2026-03-10 02:40:46 UTC</createdTime>
+<generatorID>3E76E548-2C11-7D4F-2F86-DEC8563767E4</generatorID>
 <ownerDesignName>posttest1</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_Jadwal" id="09EB0B24-1729-51BD-E0D0-7E79C19BB012">
+<Column name="ID_Pemesanan" id="1ED25F62-FDA5-1E22-A33D-2A61D19B893D">
 <createdBy>Acer</createdBy>
-<createdTime>2026-02-28 21:10:52 UTC</createdTime>
-<generatorID>A82759A0-46D0-F789-ED7A-AFB5DED60566</generatorID>
+<createdTime>2026-03-10 02:40:46 UTC</createdTime>
+<generatorID>4171B6B1-8FBA-1372-37B8-6C617727C97F</generatorID>
 <ownerDesignName>posttest1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -20,32 +20,34 @@
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Tanggal_Tayang" id="430A4B83-D4E5-667B-C6BF-8566266C8C8A">
+<Column name="Jumlah_Tiket" id="1821F099-F4E4-1A33-9795-A3A02F54F830">
 <createdBy>Acer</createdBy>
-<createdTime>2026-02-28 21:10:52 UTC</createdTime>
-<generatorID>8C81F764-676F-2D44-936E-4CB08C124482</generatorID>
+<createdTime>2026-03-10 02:40:46 UTC</createdTime>
+<generatorID>C691A4A5-D6F2-352E-F7E6-932024EB4840</generatorID>
 <ownerDesignName>posttest1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Jam_Mulai" id="F7ADFFA0-D293-2E3A-4FD4-81C5073F4908">
+<Column name="Total_Bayar" id="D70A3ED5-0536-7A85-3BEE-BF8D731AB368">
 <createdBy>Acer</createdBy>
-<createdTime>2026-02-28 21:10:52 UTC</createdTime>
-<generatorID>C57519DD-4E9E-1301-34B0-5C2346A78EC4</generatorID>
+<createdTime>2026-03-10 02:40:46 UTC</createdTime>
+<generatorID>15D22D6D-01BB-D631-D0EC-D45B202CF38E</generatorID>
 <ownerDesignName>posttest1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT014</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="FILM_ID_FIlm" id="FFD55332-5460-9B4E-DBB0-FEAF135F16FB">
+<Column name="Jadwal_Tayang_ID_Jadwal" id="FFA309A5-E1E5-DD81-CE85-9B5BFD6CA335">
 <createdBy>Acer</createdBy>
-<createdTime>2026-02-28 21:10:52 UTC</createdTime>
-<generatorID>B0321DFE-878B-C6F7-5231-7DF839A20BDA</generatorID>
+<createdTime>2026-03-10 02:40:46 UTC</createdTime>
+<generatorID>494A0DBD-6F86-4DDB-578E-AFCE670E82DD</generatorID>
 <ownerDesignName>posttest1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -55,13 +57,13 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="D30961AD-B6E2-0C6B-F57C-A82A17A64C84" referredColumn="C04E1EF3-3A92-D9D0-EDA2-68914A9F999A"/>
+<colAssociation fkAssociation="7E214449-82C7-8481-D733-318333C79DB2" referredColumn="BA6FE557-314A-BD11-3D53-8930FAB46EFA"/>
 </associations>
 </Column>
-<Column name="Studio_ID_Studio" id="B0A7147D-E73B-D5A6-2E83-EA43018F5644">
+<Column name="Pengguna_ID_Pengguna" id="91E98CF6-E07D-A590-6617-982627BBA286">
 <createdBy>Acer</createdBy>
-<createdTime>2026-02-28 21:10:52 UTC</createdTime>
-<generatorID>47D7232D-157D-56FD-DA03-1E893229EF92</generatorID>
+<createdTime>2026-03-10 02:40:46 UTC</createdTime>
+<generatorID>CF267AF1-5E25-8538-B60F-60518AAF556B</generatorID>
 <ownerDesignName>posttest1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -71,43 +73,43 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="66A9F8B9-CA27-4117-7D85-B2E82A98CED5" referredColumn="4747F34E-1D53-912B-9020-1A352388BB5C"/>
+<colAssociation fkAssociation="64183389-B754-D3E9-84D6-D8D2E5DA3BF3" referredColumn="B9CC7C96-7618-354D-983C-BC6881D1B09A"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="29720FAD-A9FF-67E6-A5BD-C894FE3F1FCF" name="Jadwal_Tayang_PK">
+<ind_PK_UK id="C6D4A040-FFA1-FD9A-96F8-C5DD0BD8C05D" name="Pemesanan_PK">
 <createdBy>Acer</createdBy>
-<createdTime>2026-02-28 21:10:52 UTC</createdTime>
-<generatorID>A8BB4135-4135-BF15-301A-C1A976761351</generatorID>
+<createdTime>2026-03-10 02:40:46 UTC</createdTime>
+<generatorID>BED9180C-C939-1EE6-F8F1-F6E49594E47E</generatorID>
 <ownerDesignName>posttest1</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="09EB0B24-1729-51BD-E0D0-7E79C19BB012"/>
+<colUsage columnID="1ED25F62-FDA5-1E22-A33D-2A61D19B893D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6B699570-43EE-CD60-3810-FE3A246355FD" name="Jadwal_Tayang_FILM_FK">
+<ind_PK_UK id="E2305E00-9643-839A-6AD7-B72B4BABE23F" name="Pemesanan_Jadwal_Tayang_FK">
 <createdBy>Acer</createdBy>
-<createdTime>2026-02-28 21:10:52 UTC</createdTime>
-<generatorID>B5DE4ABD-E18C-FB18-146D-D669B20ECFE8</generatorID>
+<createdTime>2026-03-10 02:40:46 UTC</createdTime>
+<generatorID>FD56EF7A-67E5-67E0-1F4E-C88B989832B6</generatorID>
 <ownerDesignName>posttest1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="FFD55332-5460-9B4E-DBB0-FEAF135F16FB"/>
+<colUsage columnID="FFA309A5-E1E5-DD81-CE85-9B5BFD6CA335"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="F4F06ED0-0AF0-EC67-A6FC-6042C00F7CFC" name="Jadwal_Tayang_Studio_FK">
+<ind_PK_UK id="B45F64A0-EE09-EB10-A6C0-24424575E090" name="Pemesanan_Pengguna_FK">
 <createdBy>Acer</createdBy>
-<createdTime>2026-02-28 21:10:52 UTC</createdTime>
-<generatorID>02DB3A18-F7F9-4240-BA2F-D60DB46D3421</generatorID>
+<createdTime>2026-03-10 02:40:46 UTC</createdTime>
+<generatorID>5933AB26-6238-1D92-13B0-A05F22E4A15D</generatorID>
 <ownerDesignName>posttest1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B0A7147D-E73B-D5A6-2E83-EA43018F5644"/>
+<colUsage columnID="91E98CF6-E07D-A590-6617-982627BBA286"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

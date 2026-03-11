@@ -1,17 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="030F5D5B-E486-2625-E173-6C7A0390A476" name="FILM">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9BE83665-8F33-03F5-411D-5D5DAD267FA2" name="Studio">
 <createdBy>Acer</createdBy>
-<createdTime>2026-02-28 21:10:52 UTC</createdTime>
-<generatorID>1F1FC098-7252-6CC2-3B9D-47347CF60033</generatorID>
+<createdTime>2026-03-10 02:40:46 UTC</createdTime>
+<generatorID>324E37A8-04A3-95F5-4FE8-EFDB0375BF9A</generatorID>
 <ownerDesignName>posttest1</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_FIlm" id="C04E1EF3-3A92-D9D0-EDA2-68914A9F999A">
+<Column name="ID_Studio" id="AD24A6E8-802D-F653-66C6-17FFC644BCE7">
 <createdBy>Acer</createdBy>
-<createdTime>2026-02-28 21:10:52 UTC</createdTime>
-<generatorID>C04EE43F-C69A-ACAA-3D02-E144105AB9C3</generatorID>
+<createdTime>2026-03-10 02:40:46 UTC</createdTime>
+<generatorID>1087F696-6247-0087-9650-6CB4FB8236EC</generatorID>
 <ownerDesignName>posttest1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -20,22 +20,22 @@
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Judul_Film" id="EF3AFC25-3EA3-7214-D45F-3DC41DDBEEA0">
+<Column name="Nama_Studio" id="A149EBFD-5628-FFB2-F584-FF4D4EBC8C62">
 <createdBy>Acer</createdBy>
-<createdTime>2026-02-28 21:10:52 UTC</createdTime>
-<generatorID>EF6D4734-3E64-3A2A-0A9F-41302B5D17C2</generatorID>
+<createdTime>2026-03-10 02:40:46 UTC</createdTime>
+<generatorID>20376D12-CBD0-E601-AA86-BD272BA94714</generatorID>
 <ownerDesignName>posttest1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Durasi" id="ED12A6BA-1EC9-BF39-4A28-49942881978E">
+<Column name="Kapasitas" id="7042C85B-6A80-090C-44E7-9C43D5379464">
 <createdBy>Acer</createdBy>
-<createdTime>2026-02-28 21:10:52 UTC</createdTime>
-<generatorID>D329224B-7DFE-36A9-3ED7-A4D131C773E9</generatorID>
+<createdTime>2026-03-10 02:40:46 UTC</createdTime>
+<generatorID>9A4A3D8A-8040-6A89-E238-80B49D948402</generatorID>
 <ownerDesignName>posttest1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -43,10 +43,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Ganre" id="172CFC09-63BF-C529-6DBC-DA880DAFDDB2">
+<Column name="Alamat" id="EAE872E4-7A79-B393-DC2D-28F23F0786FD">
 <createdBy>Acer</createdBy>
-<createdTime>2026-02-28 21:10:52 UTC</createdTime>
-<generatorID>9B717270-95D1-DB2D-4989-DE01D68A68FC</generatorID>
+<createdTime>2026-03-10 02:40:46 UTC</createdTime>
+<generatorID>9D0E39B5-F343-304C-4027-625F5F0A4607</generatorID>
 <ownerDesignName>posttest1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -57,16 +57,16 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="BF4999C7-A57D-0AB2-20CB-756A93B2B3F9" name="FILM_PK">
+<ind_PK_UK id="7A14E52B-8E85-92B7-6809-3102A242DEDD" name="Studio_PK">
 <createdBy>Acer</createdBy>
-<createdTime>2026-02-28 21:10:52 UTC</createdTime>
-<generatorID>DA268BE9-AE6B-AD81-359D-C2ED4136502F</generatorID>
+<createdTime>2026-03-10 02:40:46 UTC</createdTime>
+<generatorID>765ECE06-2284-2301-D2B2-FEB84DA8B7D1</generatorID>
 <ownerDesignName>posttest1</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C04E1EF3-3A92-D9D0-EDA2-68914A9F999A"/>
+<colUsage columnID="AD24A6E8-802D-F653-66C6-17FFC644BCE7"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

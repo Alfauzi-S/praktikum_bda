@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD501155-30DD-A56A-9341-BC4A078DFB52" name="Pengguna">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C0FF9B9C-59FA-B8B3-1074-C81B2E8A16EC" name="Pengguna">
 <createdBy>Acer</createdBy>
-<createdTime>2026-02-28 21:10:52 UTC</createdTime>
+<createdTime>2026-03-10 02:40:46 UTC</createdTime>
 <generatorID>F069D483-8C30-DBAF-74BC-F41B51978C58</generatorID>
 <ownerDesignName>posttest1</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_Pengguna" id="600BBCA5-93E7-7D10-1D5E-4E5492BFAC2A">
+<Column name="ID_Pengguna" id="B9CC7C96-7618-354D-983C-BC6881D1B09A">
 <createdBy>Acer</createdBy>
-<createdTime>2026-02-28 21:10:52 UTC</createdTime>
+<createdTime>2026-03-10 02:40:46 UTC</createdTime>
 <generatorID>25EFECCE-88CD-9A58-19FD-4CDAF55D52D9</generatorID>
 <ownerDesignName>posttest1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Nama_Pengguna" id="27704F44-D853-E96C-6501-2AF368D4358A">
+<Column name="Nama_Pengguna" id="198476A9-68DD-2FBB-A68C-B1EEDF61C28F">
 <createdBy>Acer</createdBy>
-<createdTime>2026-02-28 21:10:52 UTC</createdTime>
+<createdTime>2026-03-10 02:40:46 UTC</createdTime>
 <generatorID>17512585-F622-BE55-5AD2-D0F6F1C8E354</generatorID>
 <ownerDesignName>posttest1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -32,9 +32,9 @@
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="email" id="2B2CD5C9-034C-9DE7-6F3B-0E39C29CA3AE">
+<Column name="email" id="E0DE1A64-BE58-6772-E7BD-963C05ADD0C2">
 <createdBy>Acer</createdBy>
-<createdTime>2026-02-28 21:10:52 UTC</createdTime>
+<createdTime>2026-03-10 02:40:46 UTC</createdTime>
 <generatorID>EA04F562-3F0C-99EE-5680-55C32570E413</generatorID>
 <ownerDesignName>posttest1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -45,9 +45,9 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NO_HP" id="C0DAB36B-392B-196A-F003-E09C4CB99456">
+<Column name="NO_HP" id="2D1BFEBF-FC21-9995-F9D0-BEF8BF60DF8A">
 <createdBy>Acer</createdBy>
-<createdTime>2026-02-28 21:10:52 UTC</createdTime>
+<createdTime>2026-03-10 02:40:46 UTC</createdTime>
 <generatorID>578DCDFD-A581-EA1C-0A0E-4A5F2BA6DF96</generatorID>
 <ownerDesignName>posttest1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -60,16 +60,16 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="3C879522-A37C-B84E-D4C4-8C204EE1E7AB" name="Pengguna_PK">
+<ind_PK_UK id="84408F6C-6595-513F-4379-622D70EC2AB4" name="Pengguna_PK">
 <createdBy>Acer</createdBy>
-<createdTime>2026-02-28 21:10:52 UTC</createdTime>
+<createdTime>2026-03-10 02:40:46 UTC</createdTime>
 <generatorID>3E9FEE40-4BFB-F27E-DC7B-59F13723BD74</generatorID>
 <ownerDesignName>posttest1</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="600BBCA5-93E7-7D10-1D5E-4E5492BFAC2A"/>
+<colUsage columnID="B9CC7C96-7618-354D-983C-BC6881D1B09A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

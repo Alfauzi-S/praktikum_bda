@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="51C5C612-A6F6-2C60-48A5-308D5238C9AC" containerWithKeyObject="C2ACBCDB-CDA1-6EE7-8042-69EC1A263ED8" localFKIndex="54028747-1662-EABF-2377-55B51BA5FAFC" name="Jadwal_Tayang_Studio_FK">
+<createdBy>Acer</createdBy>
+<createdTime>2026-03-10 02:40:46 UTC</createdTime>
+<generatorID>02DB3A18-F7F9-4240-BA2F-D60DB46D3421</generatorID>
+<ownerDesignName>posttest1</ownerDesignName>
+<referredTableLongName>Studio</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9BE83665-8F33-03F5-411D-5D5DAD267FA2</referredTableID>
+<keyObject>7A14E52B-8E85-92B7-6809-3102A242DEDD</keyObject>
+<referredKeyID>7A14E52B-8E85-92B7-6809-3102A242DEDD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Studio</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

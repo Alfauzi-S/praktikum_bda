@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3D76654B-B3E9-A328-F946-A534780574C1" name="Karyawan">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="76B25ADF-4400-500E-632C-B56C1B765792" name="Karyawan">
 <createdBy>Acer</createdBy>
-<createdTime>2026-02-28 21:10:52 UTC</createdTime>
+<createdTime>2026-03-10 02:40:46 UTC</createdTime>
 <generatorID>976391C3-63BB-60BF-10BF-3A5203D8CEE0</generatorID>
 <ownerDesignName>posttest1</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_Karyawan" id="45C651CC-C711-2562-E939-AE8C17EC2530">
+<Column name="ID_Karyawan" id="42ADC1B2-34AD-6567-0BAA-1654D9E5ADBA">
 <createdBy>Acer</createdBy>
-<createdTime>2026-02-28 21:10:52 UTC</createdTime>
+<createdTime>2026-03-10 02:40:46 UTC</createdTime>
 <generatorID>4CAD12AC-C694-5FF3-02A8-5DBDC000CBA6</generatorID>
 <ownerDesignName>posttest1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Nama_Karyawan" id="1B9C57E4-E38B-D74A-77D5-407F1693C205">
+<Column name="Nama_Karyawan" id="53E4E6C5-471A-F921-4148-EB522FB65F1B">
 <createdBy>Acer</createdBy>
-<createdTime>2026-02-28 21:10:52 UTC</createdTime>
+<createdTime>2026-03-10 02:40:46 UTC</createdTime>
 <generatorID>28FA046B-3705-FA68-DA5B-7BDA1BC4BA7A</generatorID>
 <ownerDesignName>posttest1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -32,9 +32,9 @@
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Posisi" id="E6A8EEC5-EDF6-D0E5-86C7-3188BDC0B763">
+<Column name="Posisi" id="6EC87CC1-84DC-0BC3-36F5-9B3A8F72E7D9">
 <createdBy>Acer</createdBy>
-<createdTime>2026-02-28 21:10:52 UTC</createdTime>
+<createdTime>2026-03-10 02:40:46 UTC</createdTime>
 <generatorID>4CF9B705-A251-6570-6D19-AD691A47348D</generatorID>
 <ownerDesignName>posttest1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -44,9 +44,9 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Studio_ID_Studio" id="E663FE4E-A86D-47F5-52FF-921B3DEF0FE8">
+<Column name="Studio_ID_Studio" id="740CE90B-88D4-7C3D-7F10-52974F6B26A8">
 <createdBy>Acer</createdBy>
-<createdTime>2026-02-28 21:10:52 UTC</createdTime>
+<createdTime>2026-03-10 02:40:46 UTC</createdTime>
 <generatorID>62844CE8-D2DB-FC2F-FBAE-3F29B1EB53E5</generatorID>
 <ownerDesignName>posttest1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -57,32 +57,32 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="54B223AB-A155-B4BF-4A95-31176369C492" referredColumn="4747F34E-1D53-912B-9020-1A352388BB5C"/>
+<colAssociation fkAssociation="BBB1872A-3966-F0B7-EABC-0928CDF697F3" referredColumn="AD24A6E8-802D-F653-66C6-17FFC644BCE7"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="431FCB43-D4A7-2BD7-1B47-0AE08752C6ED" name="Karyawan_PK">
+<ind_PK_UK id="08E900C1-0121-4AE9-1D87-9E365BD67D55" name="Karyawan_PK">
 <createdBy>Acer</createdBy>
-<createdTime>2026-02-28 21:10:52 UTC</createdTime>
+<createdTime>2026-03-10 02:40:46 UTC</createdTime>
 <generatorID>DD7B4DC8-419C-4721-FA29-D92C4795FBBF</generatorID>
 <ownerDesignName>posttest1</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="45C651CC-C711-2562-E939-AE8C17EC2530"/>
+<colUsage columnID="42ADC1B2-34AD-6567-0BAA-1654D9E5ADBA"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="95728C79-DE80-4DEC-E8CE-4FCE3F601A2D" name="Karyawan_Studio_FK">
+<ind_PK_UK id="B55536A6-2CD9-821D-8A53-2B0D4696BE9C" name="Karyawan_Studio_FK">
 <createdBy>Acer</createdBy>
-<createdTime>2026-02-28 21:10:52 UTC</createdTime>
+<createdTime>2026-03-10 02:40:46 UTC</createdTime>
 <generatorID>91C9A142-2C0B-6E8A-3E0E-3491ED7C78E2</generatorID>
 <ownerDesignName>posttest1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E663FE4E-A86D-47F5-52FF-921B3DEF0FE8"/>
+<colUsage columnID="740CE90B-88D4-7C3D-7F10-52974F6B26A8"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
